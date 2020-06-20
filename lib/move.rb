@@ -13,7 +13,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def update_array_at_with(board, move_adjust, "X")
-  array[board] = move_adjust
+  array[move_adjust] = "X"
 end
 
 
